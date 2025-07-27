@@ -1,0 +1,31 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Timer circle -->
+  <circle cx="32" cy="32" r="24" fill="#E5E7EB" stroke="#6B7280" stroke-width="2"/>
+  <circle cx="32" cy="32" r="20" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="1.5"/>
+  
+  <!-- Timer marks -->
+  <rect x="31" y="8" width="2" height="4" rx="1" fill="#4F46E5"/>
+  <rect x="31" y="52" width="2" height="4" rx="1" fill="#4F46E5"/>
+  <rect x="8" y="31" width="4" height="2" rx="1" fill="#4F46E5"/>
+  <rect x="52" y="31" width="4" height="2" rx="1" fill="#4F46E5"/>
+  
+  <!-- Timer hands -->
+  <circle cx="32" cy="32" r="2" fill="#4F46E5"/>
+  <path d="M32 32L32 16" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 32L40 32" stroke="#10B981" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Speed indicator -->
+  <path d="M32 32L28 28" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 32L36 28" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Delay slider -->
+  <rect x="16" y="44" width="32" height="4" rx="2" fill="#D1D5DB"/>
+  <rect x="18" y="44" width="8" height="4" rx="2" fill="#4F46E5"/>
+  <circle cx="22" cy="46" r="3" fill="#4F46E5" stroke="#3730A3" stroke-width="1"/>
+  
+  <!-- Speed dots -->
+  <circle cx="20" cy="20" r="1.5" fill="#10B981"/>
+  <circle cx="44" cy="20" r="1.5" fill="#F59E0B"/>
+  <circle cx="20" cy="44" r="1.5" fill="#EF4444"/>
+  <circle cx="44" cy="44" r="1.5" fill="#10B981"/>
+</svg> 
