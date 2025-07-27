@@ -27,8 +27,16 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+
+ 
 </head>
 <body>
     <!-- Header -->
@@ -46,7 +54,7 @@
                         <li><a href="#privacy">Privacy</a></li>
                         <li><a href="#demo">Demo</a></li>
                         <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="https://github.com/farooqdadai/auto-copy" target="_blank">GitHub</a></li>
+                        <li><a href="https://github.com/farooqdadai/auto-copy" target="_blank" rel="noopener">GitHub</a></li>
                     </ul>
                 </nav>
             </div>
@@ -56,131 +64,56 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1>Auto Copy It</h1>
-            <p>The Ultimate Privacy-Focused Text Selection Enhancement Tool</p>
-            <div class="cta-buttons">
-                <a href="https://chrome.google.com/webstore/detail/auto-copy-it" class="btn btn-primary">
-                    Install Extension
-                </a>
-                <a href="#features" class="btn btn-secondary">
-                    Learn More
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <h2 class="section-title">Key Features</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <!-- <div class="feature-icon">
-                        <img src="images/icons/privacy.svg" alt="Privacy Icon">
-                    </div> -->
-                    <h3>Privacy-First Design</h3>
-                    <p>Operates entirely locally on your device. No data collection or transmission to external servers. Your privacy is our priority.</p>
+            <div class="hero-content">
+                <!-- <div class="hero-badge">
+                    <span>🚀 New Version 2.0</span>
+                </div> -->
+                <div class="main-heading">
+                    <h1>
+                        Stop wasting time<br>
+                        with <span class="problem-text">manual copying</span>,<br>
+                        <span class="solution-text">automate it instead</span>
+                    </h1>
                 </div>
-                <div class="feature-card">
-                    <!-- <div class="feature-icon">
-                        <img src="images/icons/copy.svg" alt="Copy Icon">
-                    </div> -->
-                    <h3>Smart Copy Functionality</h3>
-                    <p>Automatically copies selected text to clipboard with configurable formats: Plain text, HTML, UPPERCASE, lowercase, Title Case, and Sentence case.</p>
-                </div>
-                <div class="feature-card">
-                    <!-- <div class="feature-icon">
-                        <img src="images/icons/settings.svg" alt="Settings Icon">
-                    </div> -->
-                    <h3>Customizable Settings</h3>
-                    <p>Notification system with multiple positions and styles, sound notifications, domain blacklist, and optional copy history storage.</p>
-                </div>
-                <div class="feature-card">
-                    <!-- <div class="feature-icon">
-                        <img src="images/icons/security.svg" alt="Security Icon">
-                    </div> -->
-                    <h3>Permission-Based Security</h3>
-                    <p>Requires explicit user consent before accessing websites. Clear permission request flow with revocable permissions at any time.</p>
-                </div>
-                <div class="feature-card">
-                    <!-- <div class="feature-icon">
-                        <img src="images/icons/speed.svg" alt="Speed Icon">
-                    </div> -->
-                    <h3>Adjustable Delay</h3>
-                    <p>Set copy delay from 0-2000ms to prevent accidental copies. Perfect for precise text selection control.</p>
-                </div>
-                <div class="feature-card">
-                    <!-- <div class="feature-icon">
-                        <img src="images/icons/control.svg" alt="Control Icon">
-                    </div> -->
-                    <h3>Domain Control</h3>
-                    <p>Blacklist specific websites where you don't want auto-copy functionality. Complete control over where the extension operates.</p>
+                <p> <strong>Auto Copy It </strong> is a Chrome extension that automatically copies selected text to clipboard. </p>
+                <!-- <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Active Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.8★</span>
+                        <span class="stat-label">Rating</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Privacy</span>
+                    </div>
+                </div> -->
+                <div class="cta-buttons">
+                    <a href="https://chrome.google.com/webstore/detail/auto-copy-it" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        
+                        Install Extension
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                      
+                        Learn More
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- How It Works -->
-    <section id="how-it-works" class="how-it-works">
-        <div class="container">
-            <h2 class="section-title">How It Works</h2>
-            <div class="steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h3>Install Extension</h3>
-                    <p>Add Auto Copy It to your Chrome browser from the Chrome Web Store</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h3>Grant Permissions</h3>
-                    <p>Click "Enable Auto-Copy on All Sites" to grant necessary permissions</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h3>Select Text</h3>
-                    <p>Select any text on any website you visit</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">4</div>
-                    <h3>Auto Copy</h3>
-                    <p>Text is automatically copied to your clipboard with optional notification</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Privacy Section -->
-    <section id="privacy" class="privacy">
-        <div class="container">
-            <div class="privacy-content">
-                <h2>Your Privacy Matters</h2>
-                <p>Auto Copy It is designed with privacy-first principles. We believe your data should stay on your device and under your control.</p>
-                <div class="privacy-features">
-                    <div class="privacy-feature">
-                        <h4>Local Storage Only</h4>
-                        <p>All data stored locally using Chrome's secure storage API</p>
-                    </div>
-                    <div class="privacy-feature">
-                        <h4>No Server Communication</h4>
-                        <p>Extension operates entirely within your browser</p>
-                    </div>
-                    <div class="privacy-feature">
-                        <h4>User Control</h4>
-                        <p>Complete control over all features and data</p>
-                    </div>
-                    <div class="privacy-feature">
-                        <h4>Auto Cleanup</h4>
-                        <p>All data automatically removed on uninstall</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Demo Video -->
-    <section id="demo" class="demo">
+       <!-- Demo Video -->
+       <section id="demo" class="demo">
         <div class="container">
             <h2 class="section-title">See It In Action</h2>
+
+          
+
             <p class="section-subtitle">Watch how Auto Copy It transforms your text selection experience</p>
             
             <div class="video-container">
@@ -195,7 +128,7 @@
                             <div class="play-button" id="play-button">
                                 <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
                                     <circle cx="30" cy="30" r="30" fill="rgba(255,255,255,0.9)"/>
-                                    <path d="M25 20L40 30L25 40V20Z" fill="#4f46e5"/>
+                                    <path d="M25 20L40 30L25 40V20Z" fill="#6366f1"/>
                                 </svg>
                             </div>
                         </div>
@@ -203,24 +136,37 @@
                     
                     <div class="video-features">
                         <div class="feature-highlight">
-                            <div class="highlight-icon">⚡</div>
+                            <div class="highlight-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                                </svg>
+                            </div>
                             <div class="highlight-text">
                                 <h4>Instant Copy</h4>
-                                <p>Text copied automatically on selection</p>
+                                <p>Text copied automatically on selection with configurable delay</p>
                             </div>
                         </div>
                         <div class="feature-highlight">
-                            <div class="highlight-icon">🔔</div>
+                            <div class="highlight-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/>
+                                    <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>
+                                </svg>
+                            </div>
                             <div class="highlight-text">
                                 <h4>Smart Notifications</h4>
-                                <p>Visual feedback with customizable positions</p>
+                                <p>Visual feedback with customizable positions and styles</p>
                             </div>
                         </div>
                         <div class="feature-highlight">
-                            <div class="highlight-icon">🎨</div>
+                            <div class="highlight-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                            </div>
                             <div class="highlight-text">
                                 <h4>Format Options</h4>
-                                <p>Multiple text formatting choices</p>
+                                <p>Multiple text formatting choices for different use cases</p>
                             </div>
                         </div>
                     </div>
@@ -244,16 +190,179 @@
         </div>
     </section>
 
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <p class="section-subtitle">Everything you need for seamless text copying with complete privacy control</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>Privacy-First Design</h3>
+                    <p>Operates entirely locally on your device. No data collection or transmission to external servers. Your privacy is our priority.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+                            <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
+                        </svg>
+                    </div>
+                    <h3>Smart Copy Functionality</h3>
+                    <p>Automatically copies selected text to clipboard with configurable formats: Plain text, HTML, UPPERCASE, lowercase, Title Case, and Sentence case.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1 1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                        </svg>
+                    </div>
+                    <h3>Customizable Settings</h3>
+                    <p>Notification system with multiple positions and styles, sound notifications, domain blacklist, and optional copy history storage.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4"/>
+                            <path d="M21 12c-1 0-2-1-2-2s1-2 2-2 2 1 2 2-1 2-2 2z"/>
+                            <path d="M3 12c1 0 2-1 2-2s-1-2-2-2-2 1-2 2 1 2 2 2z"/>
+                            <path d="M12 3c0 1-1 2-2 2s-2-1-2-2 1-2 2-2 2 1 2 2z"/>
+                            <path d="M12 21c0-1 1-2 2-2s2 1 2 2-1 2-2 2-2-1-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3>Permission-Based Security</h3>
+                    <p>Requires explicit user consent before accessing websites. Clear permission request flow with revocable permissions at any time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12,6 12,12 16,14"/>
+                        </svg>
+                    </div>
+                    <h3>Adjustable Delay</h3>
+                    <p>Set copy delay from 0-2000ms to prevent accidental copies. Perfect for precise text selection control.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <polyline points="9,22 9,12 15,12 15,22"/>
+                        </svg>
+                    </div>
+                    <h3>Domain Control</h3>
+                    <p>Blacklist specific websites where you don't want auto-copy functionality. Complete control over where the extension operates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Get started in just 4 simple steps</p>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Install Extension</h3>
+                    <p>Add Auto Copy It to your Chrome browser from the Chrome Web Store with one click</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Grant Permissions</h3>
+                    <p>Click "Enable Auto-Copy on All Sites" to grant necessary permissions securely</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Select Text</h3>
+                    <p>Select any text on any website you visit - no additional setup required</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Auto Copy</h3>
+                    <p>Text is automatically copied to your clipboard with optional visual notification</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <!-- Privacy Section -->
+    <section id="privacy" class="privacy">
+        <div class="container">
+            <div class="privacy-content">
+                <h2>Your Privacy Matters</h2>
+                <p>Auto Copy It is designed with privacy-first principles. We believe your data should stay on your device and under your control. No tracking, no analytics, no data collection.</p>
+                <div class="privacy-features">
+                    <div class="privacy-feature">
+                        <h4>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; margin-right: 8px;">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                            Local Storage Only
+                        </h4>
+                        <p>All data stored locally using Chrome's secure storage API. Nothing leaves your device.</p>
+                    </div>
+                    <div class="privacy-feature">
+                        <h4>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; margin-right: 8px;">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M2 12h20"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                            No Server Communication
+                        </h4>
+                        <p>Extension operates entirely within your browser. No external connections or data transmission.</p>
+                    </div>
+                    <div class="privacy-feature">
+                        <h4>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; margin-right: 8px;">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1 1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                            </svg>
+                            User Control
+                        </h4>
+                        <p>Complete control over all features and data. Enable or disable functionality as needed.</p>
+                    </div>
+                    <div class="privacy-feature">
+                        <h4>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; margin-right: 8px;">
+                                <path d="M3 6h18"/>
+                                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+                            </svg>
+                            Auto Cleanup
+                        </h4>
+                        <p>All data automatically removed on uninstall. No traces left behind.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA Section -->
+     
     <section class="cta">
         <div class="container">
             <h2>Ready to Transform Your Text Selection?</h2>
-            <p>Join thousands of users who have made text copying effortless and secure</p>
+            <p>Join thousands of users who have made text copying effortless and secure. Start boosting your productivity today.</p>
             <a href="https://chrome.google.com/webstore/detail/auto-copy-it" class="btn btn-primary">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
                 Install Auto Copy It Now
             </a>
         </div>
     </section>
+
+
+    
 
     <!-- Footer -->
     <footer>
@@ -261,7 +370,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Auto Copy It</h3>
-                    <p>Making text selection effortless while respecting your privacy.</p>
+                    <p>Making text selection effortless while respecting your privacy. Built with modern web technologies and user experience in mind.</p>
                 </div>
                 <div class="footer-section">
                     <h3>Features</h3>
@@ -275,7 +384,7 @@
                 <div class="footer-section">
                     <h3>Support</h3>
                     <ul>
-                        <li><a href="https://github.com/farooqdadai/auto-copy" target="_blank">GitHub</a></li>
+                        <li><a href="https://github.com/farooqdadai/auto-copy" target="_blank" rel="noopener">GitHub</a></li>
                         <li><a href="mailto:farooqdaadkhan@gmail.com">Email Support</a></li>
                         <li><a href="privacy.html">Privacy Policy</a></li>
                         <li><a href="#how-it-works">How It Works</a></li>
@@ -285,7 +394,7 @@
                     <h3>Legal</h3>
                     <ul>
                         <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="https://github.com/farooqdadai/auto-copy" target="_blank">Source Code</a></li>
+                        <li><a href="https://github.com/farooqdadai/auto-copy" target="_blank" rel="noopener">Source Code</a></li>
                     </ul>
                 </div>
             </div>
