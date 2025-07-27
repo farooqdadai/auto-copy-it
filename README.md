@@ -2,36 +2,6 @@
 
 This is the official website for the Auto Copy It Chrome extension.
 
-## 📁 File Structure
-
-```
-website/
-├── index.html              # Main landing page
-├── privacy.html            # Privacy policy page
-├── css/
-│   └── style.css          # Main stylesheet
-├── js/
-│   └── main.js            # JavaScript functionality
-├── images/
-│   ├── logo.png           # Main logo (32x32)
-│   ├── favicon.png        # Favicon (16x16)
-│   ├── apple-touch-icon.png # Apple touch icon (180x180)
-│   ├── og-image.png       # Open Graph image (1200x630)
-│   ├── twitter-image.png  # Twitter card image (1200x600)
-│   ├── icons/             # Feature icons
-│   │   ├── privacy.svg
-│   │   ├── copy.svg
-│   │   ├── settings.svg
-│   │   ├── security.svg
-│   │   ├── speed.svg
-│   │   └── control.svg
-│   └── screenshots/       # Extension screenshots
-│       ├── popup.png      # Main popup interface
-│       ├── settings.png   # Settings configuration
-│       └── notification.png # Notification example
-└── README.md              # This file
-```
-
 ## 🚀 Deployment
 
 ### Option 1: Static Hosting (Recommended)
