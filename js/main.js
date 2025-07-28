@@ -304,32 +304,6 @@ function initAccessibility() {
         });
     });
 
-    // Add skip link
-    if (!document.querySelector('.skip-link')) {
-        const skipLink = document.createElement('a');
-        skipLink.href = '#main-content';
-        skipLink.className = 'skip-link';
-        skipLink.textContent = 'Skip to main content';
-        skipLink.style.cssText = `
-            position: absolute;
-            top: -40px;
-            left: 6px;
-            background: var(--primary-color);
-            color: white;
-            padding: 8px;
-            text-decoration: none;
-            border-radius: 4px;
-            z-index: 1000;
-            transition: top 0.3s;
-        `;
-        
-        skipLink.addEventListener('focus', function() {
-            this.style.top = '6px';
-        });
-        
-        document.body.insertBefore(skipLink, document.body.firstChild);
-    }
-
     // Add main content landmark
     const mainContent = document.querySelector('.hero');
     if (mainContent) {
